@@ -1,3 +1,3 @@
 FROM openjdk:8
 ADD target/*.jar app.jar
-ENTRYPOINT ["java","-jar","/*.jar"]
+ENTRYPOINT ["java","-jar","app.jar"]
