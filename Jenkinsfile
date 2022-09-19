@@ -20,5 +20,6 @@ pipeline {
             steps {
                 archiveArtifacts '**/target/*.jar'
             }
+         }
     }
 }
